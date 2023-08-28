@@ -17,7 +17,7 @@ const SocialButtons = () => {
         <box-icon name='whatsapp' type='logo' size='md' color='white'></box-icon>
         <p>Whatsapp</p>
       </a>
-      <a href="https://api.whatsapp.com/send?phone=5493794598282" className="flex bg-[#242434] hover:bg-gray-600 text-white font-bold py-2 px-2 gap-1 rounded justify-center items-center">
+      <a href="mailto:fernakasa+laboral@gmail.com" className="flex bg-[#242434] hover:bg-gray-600 text-white font-bold py-2 px-2 gap-1 rounded justify-center items-center">
         <box-icon name='gmail' type='logo' size='md' color='white'></box-icon>
         <p>Gmail</p>
       </a>
