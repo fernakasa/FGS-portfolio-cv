@@ -2,43 +2,55 @@
   {
     "id": 1,
     "titulo": "TheBlackOnion",
-    "imgUrl": "/img06.png",
+    "imgUrl": "https://i.ibb.co/DLbthj4/img06.png",
     "descripcion": "AppWeb la cual corresponde a una simulación de componentes de PC para observar su rendimiento de acuerdo a determinado videojuego. Se escoge un videojuego para, posteriormente, seleccionar los componentes de la PC (CPU, GPU, Ram y SSD) y simular que tan propicia es la PC comparando sus componentes con los requerimientos del videojuego.",
     "link": "https://github.com/fernakasa/TheBlackOnion"
   },
   {
     "id": 2,
     "titulo": "H.0.0.K.",
-    "imgUrl": "/img05.jpg",
+    "imgUrl": "https://i.ibb.co/Q8bspwF/img05.jpg",
     "descripcion": "H.0.0.K. es un juego de plataformas 2D con cámara lateral, compuesto por niveles donde se puede ver un salón por vez. Debes diagramar rápidamente tu estrategia y ejecutarla de la manera más precisa para ir avanzando los salones y así completar los niveles. Hay que intentar, fallar y volver a intentar, cualquier daño significa la destrucción… pero a no desesperar… tienes disponibles infinitas vidas para completar tu tarea. Es un juego del tipo intentó – error con muerte instantánea por cualquier daño y respawn inmediato. El desafío es constante y cada salón propone nuevos peligros. Decisión, precisión, acción. El reto permanente de atravesar los salones de la manera que el jugador decida. Intentar, fallar y volver a intentar. Explorar las distintas estrategias para obtener la recompensa. Controla tus frustraciones y tus ansiedades, el desafío te espera.",
     "link": "https://github.com/fernakasa/KataneroPrototype"
   },
   {
     "id": 3,
     "titulo": "BlockChain3erMundistaWeb",
-    "imgUrl": "/img04.png",
+    "imgUrl": "https://i.ibb.co/M59G0w2/img04.png",
     "descripcion": "Blockchain escrita en Python y posteriormente desarrollada para Web. La misma cuenta con la funcionalidad básica de una Blockchain, excepto la función de ser una billetera. Encripta datos utilizando SHA256 y dispone del Patrón de Diseño Singleton para no replicar la Blockchain. A su vez, se establecen tests para cada funcionalidad.",
     "link": "https://github.com/fernakasa/BlockChain3erMundistaWeb"
   },
   {
     "id": 4,
     "titulo": "WinterHell",
-    "imgUrl": "/img03.jpg",
+    "imgUrl": "https://i.ibb.co/QHD1ffH/img03.jpg",
     "descripcion": "WinterHell es un juego de terror/horror psicológico en primera persona donde se invaden los sentidos del jugador para tratar de llevarlo a una situación de ansiedad y miedo. Miedo, oscuridad y ausencia de control. Debes controlar al profesor Ian White adentradote en las profundidades de la mansion de invierno en busqueda de su esposa y arqueologa Ada.",
     "link": "https://github.com/fernakasa/WinterHell"
   },
   {
     "id": 5,
     "titulo": "UCPChat",
-    "imgUrl": "/img02.png",
+    "imgUrl": "https://i.ibb.co/jk7HBzT/img02.png",
     "descripcion": "Chat escrito en JavaScript y llevado a Web. El mismo cuenta con las funcionalidades básicas de un Chat (mandar mensajes y recibir mensajes en una sala) e incorpora un Registro de usuarios y un Login, en el cual se autentican los usuarios, para poder ingresar al Chat.",
     "link": "https://github.com/fernakasa/UCPChat"
   },
   {
     "id": 6,
     "titulo": "Bullet-Rain",
-    "imgUrl": "/img01.jpg",
+    "imgUrl": "https://i.ibb.co/LZnbh6L/img01.jpg",
     "descripcion": "Bullet Rain es un juego 2D (hecho en Godot) Shmup + bullet hell de scroll vertical que nos pone en la piel de N Pilot, a bordo de la Alien hunter, con la misión de salvar la tierra de invasores de otros planetas llevando la lucha al mismísimo espacio. Allí deberá superar múltiples hordas enemigas para poder alcanzar a la mente colmena y acabar con la amenaza.",
     "link": "https://github.com/fernakasa/Bullet-Rain"
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
