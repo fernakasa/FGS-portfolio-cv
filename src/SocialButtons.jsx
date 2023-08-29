@@ -6,20 +6,20 @@ const SocialButtons = () => {
       <div>
         <a href="https://www.linkedin.com/in/fernasanchez/" className="flex bg-[#242434] hover:bg-gray-600 text-white font-bold py-2 px-2 gap-1 rounded justify-center items-center">
           <box-icon type='logo' name='linkedin-square' size='md' color='white'></box-icon>
-          <p>LinkedIn</p>
+          <p className='hidden md:block'>LinkedIn</p>
         </a>
       </div>
       <a href="https://github.com/fernakasa" className="flex bg-[#242434] hover:bg-gray-600 text-white font-bold py-2 px-2 gap-1 rounded justify-center items-center">
         <box-icon type='logo' name='github' size='md' color='white'></box-icon>
-        <p>Github</p>
+        <p className='hidden md:block'>Github</p>
       </a>
       <a href="https://api.whatsapp.com/send?phone=5493794598282" className="flex bg-[#242434] hover:bg-gray-600 text-white font-bold py-2 px-2 gap-1 rounded justify-center items-center">
         <box-icon name='whatsapp' type='logo' size='md' color='white'></box-icon>
-        <p>Whatsapp</p>
+        <p className='hidden md:block'>Whatsapp</p>
       </a>
       <a href="mailto:fernakasa+laboral@gmail.com" className="flex bg-[#242434] hover:bg-gray-600 text-white font-bold py-2 px-2 gap-1 rounded justify-center items-center">
         <box-icon name='gmail' type='logo' size='md' color='white'></box-icon>
-        <p>Gmail</p>
+        <p className='hidden md:block'>Gmail</p>
       </a>
     </div>
   );
