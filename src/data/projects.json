@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "Proyecto Inmobiliario",
+    "descripcion": "Visualizador de propiedades usando vector tiles y Tegola.",
+    "tecnologias": ["PostGIS", "Next.js", "NestJS", "Docker"],
+    "url": "https://www.fernakasa.com.ar/proyectos/inmobiliario"
+  },
+  {
+    "titulo": "Sistema de Telecontrol",
+    "descripcion": "Microservicio para visualizar estados de red eléctrica en tiempo real.",
+    "tecnologias": ["ArcGIS", "Node.js", "PostgreSQL"],
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "nombre": "JavaScript",
+    "nivel": "Avanzado"
+  },
+  {
+    "nombre": "TypeScript",
+    "nivel": "Avanzado"
+  },
+  {
+    "nombre": "Python",
+    "nivel": "Avanzado"
+  },
+  {
+    "nombre": "SQL/PostgreSQL",
+    "nivel": "Avanzado"
+  },
+  {
+    "nombre": "PostGIS",
+    "nivel": "Avanzado"
+  },
+  {
+    "nombre": "NestJS",
+    "nivel": "Intermedio"
+  },
+  {
+    "nombre": "Astro",
+    "nivel": "Intermedio"
+  },
+  {
+    "nombre": "Docker",
+    "nivel": "Intermedio"
+  },
+  {
+    "nombre": "ArcGIS / QGIS",
+    "nivel": "Avanzado"
+  },
+  {
+    "nombre": "Leaflet / Tegola",
+    "nivel": "Avanzado"
+  }
+]
