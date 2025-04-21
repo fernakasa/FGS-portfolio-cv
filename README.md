@@ -17,11 +17,11 @@ Este es mi portfolio personal desarrollado con [Astro](https://astro.build/) y [
 
 ## 📷 Capturas de Pantalla
 
-![Vista de escritorio](./public/screenshots/desktop.png)
-![Vista móvil](./public/screenshots/mobile.png)
+![Vista de escritorio](./public/screenshots/desktop.png) ![Vista móvil](./public/screenshots/mobile.png)
 
 ## 🛠️ Instalación y Desarrollo
 
 ```bash
 npm install
 npm run dev
+```
