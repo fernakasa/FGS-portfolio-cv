@@ -1,29 +1,51 @@
 ---
 import projects from "../data/projects.json";
+import Github from "./icons/Github.astro";
+import Badge from "./prefabs/Badge.astro";
+import SocialPill from "./prefabs/SocialPill.astro";
 ---
 
 <div>
-  <h2 class="text-xl font-semibold mb-4">Proyectos destacados</h2>
-  <div class="grid gap-6">
-    {
-      projects.map((proyecto) => (
-        <article class="bg-slate-800/60 p-5 rounded-lg shadow border border-slate-700 hover:bg-slate-800 transition">
-          <h3 class="text-lg font-bold text-white mb-1">{proyecto.titulo}</h3>
-          <p class="text-gray-300 mb-2">{proyecto.descripcion}</p>
-          <p class="text-sm text-gray-400 mb-2">
-            <strong>Tecnologías:</strong> {proyecto.tecnologias.join(", ")}
-          </p>
-          {proyecto.url && (
-            <a
-              href={proyecto.url}
-              target="_blank"
-              class="inline-block mt-2 text-sm text-blue-400 hover:underline"
-            >
-              Ver más →
-            </a>
-          )}
-        </article>
-      ))
-    }
+  <h2 class="text-3xl font-semibold mb-8 text-left pl-16">📌 Proyectos</h2>
+
+  <div class="space-y-10">
+    {projects.map((project) => (
+      <div class="bg-gray-800/60 rounded-xl overflow-hidden shadow border-4 border-gray-700 flex flex-col md:flex-row gap-4">
+        <!-- Imagen -->
+        <div class="md:w-1/2 w-full h-52 md:h-auto rounded-xl ">
+          <img
+            src={project.image}
+            alt={`Screenshot of ${project.title}`}
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Info -->
+        <div class="md:w-1/2 w-full p-4 flex flex-col justify-between">
+          <div>
+            <h3 class="text-2xl font-bold text-yellow-400">{project.title}</h3>
+
+            <!-- Stack tags -->
+            <div class="flex flex-wrap gap-2 my-2">
+              {project.stack.map((tech) => (
+                <span class="text-xs bg-slate-700 text-white px-2 py-0.5 rounded">
+                  {tech}
+                </span>
+              ))}
+            </div>
+
+            <p class="text-sm text-gray-300">{project.description}</p>
+          </div>
+
+          <!-- Botón -->
+          <div class="flex flex-wrap justify-center sm:justify-start gap-3">
+            <SocialPill href={project.url}>
+              <Badge icon="Github">Code</Badge>
+            </SocialPill>
+          </div>
+        </div>
+      </div>
+    ))}
   </div>
 </div>

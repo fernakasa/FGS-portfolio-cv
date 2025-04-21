@@ -1,14 +1,58 @@
 [
   {
-    "titulo": "Proyecto Inmobiliario",
-    "descripcion": "Visualizador de propiedades usando vector tiles y Tegola.",
-    "tecnologias": ["PostGIS", "Next.js", "NestJS", "Docker"],
-    "url": "https://www.fernakasa.com.ar/proyectos/inmobiliario"
+    "title": "UCPChat",
+    "url": "https://github.com/fernakasa/UCPChat",
+    "image": "/projects/ucpchat.webp",
+    "stack": [
+      "Node.js",
+      "Express.js",
+      "Socket.IO",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "description": "Aplicación de chat en tiempo real que permite a los usuarios comunicarse de manera instantánea. Backend en Express y comunicación en vivo mediante Socket.IO."
   },
   {
-    "titulo": "Sistema de Telecontrol",
-    "descripcion": "Microservicio para visualizar estados de red eléctrica en tiempo real.",
-    "tecnologias": ["ArcGIS", "Node.js", "PostgreSQL"],
-    "url": null
+    "title": "WinterHell",
+    "url": "https://github.com/fernakasa/WinterHell",
+    "image": "/projects/winterhell.webp",
+    "stack": ["Unreal Engine", "Blueprints", "C++"],
+    "description": "Videojuego de terror psicológico en primera persona. El jugador explora una mansión enfrentando situaciones inquietantes. Desarrollado en Unreal Engine 4.23."
+  },
+  {
+    "title": "BlockChain3erMundistaWeb",
+    "url": "https://github.com/fernakasa/BlockChain3erMundistaWeb",
+    "image": "/projects/blockchain-web.webp",
+    "stack": ["Flask", "HTML", "CSS", "JavaScript", "Python"],
+    "description": "Aplicación web que implementa una cadena de bloques simple para simular transacciones y aprender fundamentos de blockchain. Interfaz simple y backend en Flask con visualización de bloques."
+  },
+  {
+    "title": "TheBlackOnion",
+    "url": "https://github.com/StefanoSimoni/TheBlackOnion",
+    "image": "/projects/theblackonion.webp",
+    "stack": ["Vue.js", "Node.js", "Express.js", "PostgreSQL"],
+    "description": "Webapp para simular el rendimiento de componentes de PC según el videojuego. Frontend en Vue y backend en Express."
+  },
+  {
+    "title": "Asteroids404",
+    "url": "https://github.com/Trece-1101/Asteroids404",
+    "image": "/projects/asteroids404.webp",
+    "stack": ["JavaScript", "HTML", "CSS", "Kontra.js"],
+    "description": "Shooter espacial 2D estilo retro, creado para la game jam js13kgames con temática 'Error 404'."
+  },
+  {
+    "title": "Bullet-Rain",
+    "url": "https://github.com/Trece-1101/Bullet-Rain",
+    "image": "/projects/bullet-rain.webp",
+    "stack": ["Godot", "GDScript"],
+    "description": "Juego tipo bullet hell en 2D vertical donde el jugador controla una nave espacial. Desarrollado en Godot."
+  },
+  {
+    "title": "H.0.0.K.",
+    "url": "https://github.com/Trece-1101/H00K",
+    "image": "/projects/hook.webp",
+    "stack": ["Godot Engine", "GDScript"],
+    "description": "Juego de plataformas 2D donde el jugador usa un gancho para moverse y superar obstáculos. Mecánica principal: hook traversal."
   }
 ]

@@ -1,42 +1,153 @@
 [
   {
-    "nombre": "JavaScript",
-    "nivel": "Avanzado"
+    "category": "Languages",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "badge": "https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square"
+      },
+      {
+        "name": "PHP",
+        "badge": "https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Python",
+        "badge": "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "TypeScript",
+        "badge": "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=flat-square"
+      }
+    ]
   },
   {
-    "nombre": "TypeScript",
-    "nivel": "Avanzado"
+    "category": "Databases",
+    "skills": [
+      {
+        "name": "MongoDB",
+        "badge": "https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "MySQL",
+        "badge": "https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "PostgreSQL",
+        "badge": "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "SQLite",
+        "badge": "https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=fff&style=flat-square"
+      }
+    ]
   },
   {
-    "nombre": "Python",
-    "nivel": "Avanzado"
+    "category": "GIS",
+    "skills": [
+      {
+        "name": "ArcGIS",
+        "badge": "https://img.shields.io/badge/ArcGIS-2C7AC3?logo=arcgis&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "QGIS",
+        "badge": "https://img.shields.io/badge/Qgis-589632?logo=qgis&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Leaflet",
+        "badge": "https://img.shields.io/badge/Leaflet-199900?logo=leaflet&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Mapbox",
+        "badge": "https://img.shields.io/badge/Mapbox-000?logo=mapbox&logoColor=fff&style=flat-square"
+      }
+    ]
   },
   {
-    "nombre": "SQL/PostgreSQL",
-    "nivel": "Avanzado"
+    "category": "Backend",
+    "skills": [
+      {
+        "name": "Flask",
+        "badge": "https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "FastAPI",
+        "badge": "https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Express",
+        "badge": "https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "NestJS",
+        "badge": "https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Sequelize",
+        "badge": "https://img.shields.io/badge/Sequelize-52B0E7?logo=sequelize&logoColor=fff&style=flat-square"
+      }
+    ]
   },
   {
-    "nombre": "PostGIS",
-    "nivel": "Avanzado"
+    "category": "Frontend",
+    "skills": [
+      {
+        "name": "Next.js",
+        "badge": "https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "React",
+        "badge": "https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=flat-square"
+      },
+      {
+        "name": "Astro",
+        "badge": "https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Tailwind CSS",
+        "badge": "https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat-square"
+      }
+    ]
   },
   {
-    "nombre": "NestJS",
-    "nivel": "Intermedio"
+    "category": "Engines",
+    "skills": [
+      {
+        "name": "Godot Engine",
+        "badge": "https://img.shields.io/badge/Godot%20Engine-478CBF?logo=godotengine&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Unity",
+        "badge": "https://img.shields.io/badge/Unity-FFF?logo=unity&logoColor=000&style=flat-square"
+      },
+      {
+        "name": "Unreal Engine",
+        "badge": "https://img.shields.io/badge/Unreal%20Engine-0E1128?logo=unrealengine&logoColor=fff&style=flat-square"
+      }
+    ]
   },
   {
-    "nombre": "Astro",
-    "nivel": "Intermedio"
-  },
-  {
-    "nombre": "Docker",
-    "nivel": "Intermedio"
-  },
-  {
-    "nombre": "ArcGIS / QGIS",
-    "nivel": "Avanzado"
-  },
-  {
-    "nombre": "Leaflet / Tegola",
-    "nivel": "Avanzado"
+    "category": "Others",
+    "skills": [
+      {
+        "name": "Docker",
+        "badge": "https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Git",
+        "badge": "https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "GitHub",
+        "badge": "https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Jest",
+        "badge": "https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff&style=flat-square"
+      },
+      {
+        "name": "Swagger",
+        "badge": "https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=flat-square"
+      }
+    ]
   }
 ]

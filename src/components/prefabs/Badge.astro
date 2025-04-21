@@ -1,0 +1,19 @@
+---
+const { icon } = Astro.props;
+
+// Intentamos importar el icono si existe
+let IconComponent;
+
+try {
+  IconComponent = await import(`../icons/${icon}.astro`);
+} catch {
+  IconComponent = null;
+}
+---
+
+<span
+  class="flex items-center gap-1 text-white text-xs font-lg mx-1 rounded-sm dark:bg-gray-700 dark:text-gray-300"
+>
+  {IconComponent && <IconComponent.default class="w-5 h-5" />}
+  <slot />
+</span>
