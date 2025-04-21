@@ -1,19 +1,69 @@
 ---
+const navLinks = [
+  { href: "#welcome", label: "Inicio" },
+  { href: "#experience", label: "Experiencia" },
+  { href: "#projects", label: "Proyectos" },
+  { href: "#skills", label: "Skills" },
+  { href: "#education", label: "Educación" },
+  { href: "#about", label: "Sobre mí" },
+];
 
+let isOpen = false;
 ---
+
+<script type="module" client:load>
+  const toggle = document.getElementById("nav-toggle");
+  const menu = document.getElementById("mobile-menu");
+
+  toggle?.addEventListener("click", () => {
+    menu?.classList.toggle("hidden");
+  });
+</script>
 
 <header
   class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md shadow-md"
 >
   <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-    <h1 class="text-xl font-bold text-white">FernaKasa</h1>
-    <nav class="space-x-4 text-sm text-white">
-      <a href="#inicio" class="hover:underline">Inicio</a>
-      <a href="#experiencia" class="hover:underline">Experiencia</a>
-      <a href="#proyectos" class="hover:underline">Proyectos</a>
-      <a href="#habilidades" class="hover:underline">Habilidades</a>
-      <a href="#educacion" class="hover:underline">Educación</a>
-      <a href="#sobre-mi" class="hover:underline">Sobre Mi</a>
+    <h1 class="text-xl font-bold text-white">fernakasa.com.ar</h1>
+
+    <!-- Botón hamburguesa -->
+    <button id="nav-toggle" class="md:hidden text-white focus:outline-none">
+      <svg
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+
+    <!-- Menú normal (desktop) -->
+    <nav class="hidden md:flex space-x-6 text-sm text-white">
+      {
+        navLinks.map((link) => (
+          <a href={link.href} class="hover:underline">
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+
+  <!-- Menú móvil -->
+  <div id="mobile-menu" class="md:hidden hidden bg-slate-900/90 px-4 pb-4">
+    <nav class="flex flex-col gap-2 text-white text-sm">
+      {
+        navLinks.map((link) => (
+          <a href={link.href} class="py-1 border-b border-slate-700">
+            {link.label}
+          </a>
+        ))
+      }
     </nav>
   </div>
 </header>
