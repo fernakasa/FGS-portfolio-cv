@@ -1,0 +1,20 @@
+[
+  {
+    "degree": "Ingeniero en Sistemas de Información",
+    "institution": "Universidad de la Cuenca del Plata",
+    "location": "Corrientes, Argentina",
+    "period": "2019 - 2023"
+  },
+  {
+    "degree": "Técnico en Diseño y Programación en Videojuegos",
+    "institution": "Universidad de la Cuenca del Plata",
+    "location": "Corrientes, Argentina",
+    "period": "2018 - 2020"
+  },
+  {
+    "degree": "Cisco Certified Network Associate (CCNA)",
+    "institution": "Universidad Tecnológica Nacional",
+    "location": "Chaco, Argentina",
+    "period": "2011 - 2012"
+  }
+]

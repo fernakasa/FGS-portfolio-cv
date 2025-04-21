@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Profesional Avanzado GIS",
+    "company": "Dirección Provincial de Energía de Corrientes",
+    "date": "2017 – Presente",
+    "description": "Desarrollo de sistemas de información geográfica, mantenimiento de visores web y administración de bases de datos espaciales. Integración con APIs y automatización de procesos de datos.",
+    "type": "Presencial"
+  },
+  {
+    "title": "AI Contributor / Reviewer",
+    "company": "Scale AI",
+    "date": "2024 – 2025",
+    "description": "Entrenamiento de modelos de lenguaje mediante RLHF, revisión de tareas con foco en calidad y consistencia, y contribución en múltiples etapas del pipeline de inteligencia artificial. Participación en validación L10 y feedback técnico de alto nivel.",
+    "type": "Remoto"
+  },
+  {
+    "title": "Desarrollador Backend",
+    "company": "Desarrollos NEA",
+    "date": "2023",
+    "description": "Participación en un proyecto IoT para monitoreo de ganado. Diseño e implementación de servicios cliente-servidor y desarrollo de API RESTful para visualización de datos.",
+    "type": "Remoto"
+  }
+]
